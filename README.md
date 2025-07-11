@@ -35,8 +35,8 @@ A inteligência artificial tem papel central desde o primeiro contato: ela suger
 
 ## Tecnologias Utilizadas
 
-- **Backend**: .NET (ASP.NET Core, .NET 7+), EF Core  
-- **Frontend**: React (com TypeScript) ou Blazor WebAssembly  
+- **Backend**: .NET (ASP.NET Core, .NET 7+), EF Core, NodeJS com Express 
+- **Frontend**: React (com TypeScript) ou Blazor WebAssembly, TailwindCSS  
 - **Banco de Dados**: SQL Server ou PostgreSQL  
 - **Armazenamento de imagens**: Azure Blob Storage ou AWS S3  
 - **Autenticação**: Google OAuth (via Identity)  
