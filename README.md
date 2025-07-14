@@ -56,3 +56,8 @@ A inteligência artificial tem papel central desde o primeiro contato: ela suger
 
 ---
 
+## 👥 [Personas](https://docs.google.com/document/d/1TDxu20Mn8sPrQRZx2N7kRd0iiAQqmhZhezpEbJ3sD-w/edit?usp=sharing)
+
+---
+
+## [📖 Jornadas de usuário](https://docs.google.com/document/d/1duRA-ahvoVoR20P7pI6Tnoo3XCaCsNuKO6ySL9DcgUs/edit?usp=sharing)
