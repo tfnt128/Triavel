@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "367Eo+eK0h8=",
+  "success": true,
+  "projectFilePath": "C:\\Workstation\\Triavel\\Triavel.API\\Triavel.API\\Triavel.API.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\thiag\\.nuget\\packages\\microsoft.net.sdk.compilers.toolset\\9.0.302\\microsoft.net.sdk.compilers.toolset.9.0.302.nupkg.sha512"
+  ],
+  "logs": []
+}
