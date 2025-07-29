@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Workstation\\Triavel\\Triavel.API\\Triavel.API.csproj": {}
+    "C:\\Workstation\\Triavel\\Triavel.Shared.Models\\Triavel.Shared.Models.csproj": {}
   },
   "projects": {
-    "C:\\Workstation\\Triavel\\Triavel.API\\Triavel.API.csproj": {
+    "C:\\Workstation\\Triavel\\Triavel.Shared.Models\\Triavel.Shared.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Workstation\\Triavel\\Triavel.API\\Triavel.API.csproj",
-        "projectName": "Triavel.API",
-        "projectPath": "C:\\Workstation\\Triavel\\Triavel.API\\Triavel.API.csproj",
+        "projectUniqueName": "C:\\Workstation\\Triavel\\Triavel.Shared.Models\\Triavel.Shared.Models.csproj",
+        "projectName": "Triavel.Shared.Models",
+        "projectPath": "C:\\Workstation\\Triavel\\Triavel.Shared.Models\\Triavel.Shared.Models.csproj",
         "packagesPath": "C:\\Users\\thiag\\.nuget\\packages\\",
-        "outputPath": "C:\\Workstation\\Triavel\\Triavel.API\\obj\\",
+        "outputPath": "C:\\Workstation\\Triavel\\Triavel.Shared.Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -50,10 +50,6 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "Microsoft.AspNetCore.OpenApi": {
-              "target": "Package",
-              "version": "[8.0.0, )"
-            },
             "Microsoft.Data.SqlClient": {
               "target": "Package",
               "version": "[5.1.6, )"
@@ -68,10 +64,6 @@
               "target": "Package",
               "version": "[8.0.16, )"
             },
-            "Microsoft.EntityFrameworkCore.Proxies": {
-              "target": "Package",
-              "version": "[8.0.16, )"
-            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[8.0.16, )"
@@ -81,18 +73,6 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.16, )"
-            },
-            "Swashbuckle.AspNetCore": {
-              "target": "Package",
-              "version": "[6.5.0, )"
-            },
-            "Swashbuckle.AspNetCore.Swagger": {
-              "target": "Package",
-              "version": "[6.5.0, )"
-            },
-            "Swashbuckle.AspNetCore.SwaggerUI": {
-              "target": "Package",
-              "version": "[6.5.0, )"
             }
           },
           "imports": [
@@ -113,9 +93,6 @@
             }
           ],
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
