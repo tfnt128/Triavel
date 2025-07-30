@@ -1,9 +1,9 @@
 import { BsLinkedin } from "react-icons/bs";
 import { BsGithub } from "react-icons/bs";
 
-function Footer(){
+function Footer({ClassName}){
     return(
-        <div className="bg-terciary w-full lg:h-[30%] lg:mt-[4000px]  flex flex-col items-center ">
+        <div className={`w-full lg:h-[30%] h-[100%] flex flex-col items-center ${ClassName}`}  >
             <h3 className="primary-color text-[18px] lg:text-[100px] mt-5 lg:mt-10 ">Créditos</h3>
             <h3 className=" text-[16px] lg:text-[90px] mt-0.3 lg:mt-0.5 ">André Lucca Gaem</h3>
             <div className="lg:hidden flex flex-row gap-2">
