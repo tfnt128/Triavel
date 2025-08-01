@@ -24,8 +24,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Loginpage />} />
         <Route path="/register" element={<Register />} />
-        <Route path="/esqueciasenha" element={<RGoogle/>}/>
-        <Route path="/entrarcomgoogle" element={<Esquecisenha/>}/>
+        <Route path="/esqueciasenha" element={<Esquecisenha/>}/>
+        <Route path="/entrarcomgoogle" element={<RGoogle/>}/>
         <Route path="/entrar" element={<Entrar/>}/>
       </Routes>
     </BrowserRouter>

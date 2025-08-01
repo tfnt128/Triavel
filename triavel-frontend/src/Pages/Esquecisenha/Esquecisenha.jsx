@@ -1,7 +1,11 @@
+import Fundoes from "../../components/Esquecise/Fundoes";
+
 function Esquecisenha(){
 
     return(
-        <h1>Rota esqueci senha</h1>
+        <>
+            <Fundoes z="z-[5]"/>
+        </>
     )
 }
 
