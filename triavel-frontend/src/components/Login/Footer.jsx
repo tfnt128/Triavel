@@ -1,10 +1,10 @@
 import { BsLinkedin } from "react-icons/bs";
 import { BsGithub } from "react-icons/bs";
 
-function Footer({ClassName}){
+function Footer({ClassName, customCenterlize}){
     return(
-        <div className={`w-full lg:h-[30%] h-[100%] flex flex-col items-center ${ClassName}`}  >
-            <h3 className="primary-color text-[18px] lg:text-[100px] mt-5 lg:mt-10 ">Créditos</h3>
+        <div className={`w-full lg:h-[40%]  flex flex-col items-center ${ClassName}`}  >
+            <h3 className={`primary-color text-[18px] lg:text-[100px] mt-20 pt-[100px] lg:mt-45 lg:mb-5`}>Créditos</h3>
             <h3 className=" text-[16px] lg:text-[90px] mt-0.3 lg:mt-0.5 ">André Lucca Gaem</h3>
             <div className="lg:hidden flex flex-row gap-2">
                 <a href="https://www.linkedin.com/in/andr%C3%A9-lucca-gaem-05a200343/">
@@ -23,7 +23,7 @@ function Footer({ClassName}){
                 </a>
             </div>
             <h3 className=" text-[16px] lg:text-[90px] mt-0.3 lg:mt-0.5 ">Thiago Carvalho</h3>
-            <div className="lg:hidden flex flex-row gap-2">
+            <div className="lg:hidden flex flex-row pb-8 gap-2">
                 <a href="https://www.linkedin.com/in/thiago-fontoura-13a906370/">
                     <BsLinkedin size={20}/>
                 </a>
@@ -31,7 +31,7 @@ function Footer({ClassName}){
                     <BsGithub size={20} />
                 </a>
             </div>
-            <div className="lg:flex hidden flex-row gap-2">
+            <div className="lg:flex hidden flex-row gap-2 ">
                 <a href="https://www.linkedin.com/in/thiago-fontoura-13a906370/">
                     <BsLinkedin size={100}/>
                 </a>
