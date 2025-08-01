@@ -5,10 +5,11 @@ import Title from "../Loadingpage/Title.png"
 
 function Fundoes({z}){
     return(
-        < div className={`absolute ${z}`}>
-            <div className="flex flex-col items-center absolute z-[4]">
-                <img src={Title} />
-            </div>
+        < div className={` ${z}`}>
+                <img src={Title} className="w-[40%] ml-[35%] mt-[15%] absolute z-[4]" />
+                <img src={Recblues} className="absolute  z-[3]"/>
+                <img src={Recores} className="absolute ml-8 z-[2]"/>
+                <img src={Montanhas} className="absolute ml-8 z-[1]"/>
         </div>
     )
 }
