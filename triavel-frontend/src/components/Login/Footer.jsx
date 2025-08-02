@@ -3,7 +3,7 @@ import { BsGithub } from "react-icons/bs";
 
 function Footer({ClassName, customCenterlize}){
     return(
-        <div className={`w-full lg:h-[40%]  flex flex-col items-center ${ClassName}`}  >
+        <div className={` lg:h-[40%] bg-gradient-to-r from-blue-950 to-orange-600 flex flex-col items-center ${ClassName}`}  >
             <h3 className={`primary-color text-[18px] lg:text-[100px] mt-20 pt-[100px] lg:mt-45 lg:mb-5`}>Créditos</h3>
             <h3 className=" text-[16px] lg:text-[90px] mt-0.3 lg:mt-0.5 ">André Lucca Gaem</h3>
             <div className="lg:hidden flex flex-row gap-2">
