@@ -53,39 +53,38 @@ function Esqbox({firstTitle,
     }   
 
 
-        useEffect(() => {
-            if(boxnumber != 1 ) return;
-            if (numero <= 0) {
-                setBoxnumber(3);
-                return; 
-            }
+    useEffect(() => {
+        if(boxnumber != 1 ) return;
+        if (numero <= 0) {
+            setBoxnumber(3);
+            return; 
+        }
 
-            const intervalo = setInterval(() => {
-                setNumero((prevNumero) => prevNumero - 1);
-            }, 1000);
+        const intervalo = setInterval(() => {
+            setNumero((prevNumero) => prevNumero - 1);
+        }, 1000);
 
-            return () => clearInterval(intervalo); 
-        }, [numero])
+        return () => clearInterval(intervalo); 
+    }, [numero, boxnumber])
 
-        useEffect(()=>{
-            if( greenW==false){
-                return;
-            }
-            if(countRedirect <=0){
+    useEffect(()=>{
+        if(greenW==true){
+            if(countRedirect <=0 ){
                 navigate("/");
                 return;
             }
-            const interv = setInterval(()=>{
-                setCountRedirect((prevCount) => prevCount - 1);
-            }, 1000)
+                const interv = setInterval(()=>{
+                    setCountRedirect((prevCount) => prevCount - 1);
+                }, 1000)
 
-            return () => clearInterval(interv);
-        }, [countRedirect, greenW])
+                return () => clearInterval(interv);
+        }
+    }, [countRedirect, greenW])
+    
 
-        useEffect(()=>{
-            if(redW==false){
-                return;
-            }
+
+    useEffect(()=>{
+        if(redW==true){
             if(countW<=0){
                 setRedW(false);
                 return;
@@ -96,7 +95,8 @@ function Esqbox({firstTitle,
             }, 1000)
 
             return ()=>clearInterval(intervW);
-        }, [countW, redW])
+        }
+    }, [countW, redW])
 
     return(<>
         <div className={`w-[85%] lg:w-[65%] lg:h-[70%] h-[55%] bg-primary absolute z-[10] lg:mt-[10%] mt-[35%] flex flex-col items-center ml-[13%] lg:ml-[18%] lg:rounded-[80px] rounded-[30px] ${transition}`}>

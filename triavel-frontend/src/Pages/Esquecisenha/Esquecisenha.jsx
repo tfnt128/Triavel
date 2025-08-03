@@ -47,6 +47,10 @@ function Esquecisenha(){
                     boxnumber={boxnumber}
                     setBoxnumber={setBoxnumber}
                     noInput={true}
+                    greenW = {greenW}
+                    setGreenW = {setGreenW}
+                    redW = {redW}
+                    setRedW = {setRedW}
                     />
             }
             { boxnumber == 2 &&
@@ -69,12 +73,12 @@ function Esquecisenha(){
             }
             {
                 greenW == true &&
-                <Greenwarn ClassName="absolute z-[20] ml-[32%] mt-[160%]" Msg="Senha redefinida!
+                <Greenwarn ClassName="absolute z-[20] ml-[32%] lg:ml-[84%] mt-[160%] lg:mt-[0%]" Msg="Senha redefinida!
                     Aguarde e você será redirecionado para a página de início."/>
             }
             {
                 redW == true &&
-                <Warn ClassName="absolute z-[20] ml-[32%] mt-[160%]" Msg="As senhas não coincidem!"/>
+                <Warn ClassName="absolute z-[20] ml-[32%] mt-[160%] lg:ml-[84%] lg:mt-0" Msg="As senhas não coincidem!"/>
             }
 
         </>
