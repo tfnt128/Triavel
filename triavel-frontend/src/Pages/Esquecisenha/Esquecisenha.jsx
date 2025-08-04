@@ -10,6 +10,7 @@ function Esquecisenha(){
     const [boxnumber, setBoxnumber] = useState(0);
     const [greenW, setGreenW] = useState(false);
     const [redW, setRedW] = useState(false);
+    const [emptyType, setEmptyType] = useState(false);
 
 
     return(
@@ -24,19 +25,27 @@ function Esquecisenha(){
                     transition="animate-fade-right"
                     boxnumber = {boxnumber}
                     setBoxnumber = {setBoxnumber}
-                    noInput={false}/>
+                    noInput={false}
+                    redW = {redW}
+                    setRedW = {setRedW}
+                    emptyType = {emptyType}
+                    setEmptyType = {setEmptyType}/>
             }
             { boxnumber == 1 &&
                 <Esqbox firstTitle="Código" 
                     secTitle="enviado!" 
-                    infoText="O código de redefinição acaba de ser enviado para o seu e-mail. Por favor, cheque sua caixa de entrada e infome o código no campo abaixo dentro do tempo." 
+                    infoText="O código de redefinição acaba de ser enviado para o seu e-mail. Por favor, verifique sua caixa de entrada e informe o código no campo abaixo dentro do tempo." 
                     placeText="Informe o código enviado" 
                     butText="Confirmar código"
                     transition="animate-fade-right"
                     boxnumber={boxnumber}
                     setBoxnumber={setBoxnumber}
                     timer = {true}
-                    noInput={false}/>
+                    noInput={false}
+                    redW = {redW}
+                    setRedW = {setRedW}
+                    emptyType = {emptyType}
+                    setEmptyType = {setEmptyType}/>
             }
             { boxnumber == 3 &&
                 <Esqbox firstTitle="Tempo" 
@@ -51,6 +60,8 @@ function Esquecisenha(){
                     setGreenW = {setGreenW}
                     redW = {redW}
                     setRedW = {setRedW}
+                    emptyType = {emptyType}
+                    setEmptyType = {setEmptyType}
                     />
             }
             { boxnumber == 2 &&
@@ -69,6 +80,8 @@ function Esquecisenha(){
                     setGreenW = {setGreenW}
                     redW = {redW}
                     setRedW = {setRedW}
+                    emptyType = {emptyType}
+                    setEmptyType = {setEmptyType}
                     />
             }
             {
@@ -79,6 +92,11 @@ function Esquecisenha(){
             {
                 redW == true &&
                 <Warn ClassName="absolute z-[20] ml-[32%] mt-[160%] lg:ml-[84%] lg:mt-0" Msg="As senhas não coincidem!"/>
+            }
+            {
+                emptyType == true &&
+                <Warn ClassName="absolute z-[20] ml-[32%] mt-[160%] lg:ml-[84%] lg:mt-0 lg:pt-3" Msg="Nenhum campo deve ficar vazio!"/>
+
             }
 
         </>
