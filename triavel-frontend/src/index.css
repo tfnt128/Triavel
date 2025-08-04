@@ -1,0 +1,94 @@
+@import "tailwindcss";
+@import "tailwindcss-animated";
+
+@font-face {
+  font-family: 'Inter-Regular';
+  src: url("./fonts/Inter/Inter-Regular.otf");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face{
+  font-family: 'Inter-Bold-Italic';
+  src: url("./fonts/Inter/Inter-BoldItalic.otf");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face{
+  font-family: "Itim-Regular";
+  src: url("./fonts/Itim/Itim-Regular.otf");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+:root{
+  --font-inter: 'Inter-Regular', sans-serif;
+  --font-inter-bold-i: 'Inter-Bold-Italic', sans-serif;
+  --font-itim: 'Itim-Regular', sans-serif;
+}
+
+.font-inter{
+  font-family: var(--font-inter);
+}
+
+.font-inter-bold-i{
+  font-family: var(--font-inter-bold-i);
+}
+
+.font-itim{
+  font-family: var(--font-itim);
+}
+
+@layer utilities{
+  .secundary-color{
+    color: #EA5E2B;
+  }
+
+  .primary-color{
+    color: #4F8DF9;
+  }
+
+  .terciary-color{
+    color: #31346E;
+  }
+
+  .bg-primary{
+    background-color: #4F8DF9;
+  }
+
+  .bg-secundary{
+    background-color: #EA5E2B;
+  }
+
+  .bg-terciary{
+    background-color: #31346E;
+  }
+
+  .bg-quaternary{
+    color: #03002A;
+  }
+
+  .bg-inputs{
+    background-color: #d9d9d9
+  }
+
+  .text-primary-color{
+    color: black;
+  }
+
+  .text-secundary-color{
+    color: #797979;
+  }
+
+  .text-terciary-color{
+    color:white;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
