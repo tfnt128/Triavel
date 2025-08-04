@@ -1,12 +1,37 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Workstation\\Triavel\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{79E3F810-BA1D-4DA7-9899-2B32C033A9D5}|Triavel.Shared.Data\\Triavel.Shared.Data.csproj|c:\\workstation\\triavel\\triavel.shared.data\\data\\triavelcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79E3F810-BA1D-4DA7-9899-2B32C033A9D5}|Triavel.Shared.Data\\Triavel.Shared.Data.csproj|solutionrelative:triavel.shared.data\\data\\triavelcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TriavelContext.cs",
+              "DocumentMoniker": "C:\\Workstation\\Triavel\\Triavel.Shared.Data\\Data\\TriavelContext.cs",
+              "RelativeDocumentMoniker": "Triavel.Shared.Data\\Data\\TriavelContext.cs",
+              "ToolTip": "C:\\Workstation\\Triavel\\Triavel.Shared.Data\\Data\\TriavelContext.cs",
+              "RelativeToolTip": "Triavel.Shared.Data\\Data\\TriavelContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T19:40:07.748Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

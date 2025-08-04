@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Triavel.Shared.Data")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7fa1e1ae9d8f957cd865f5336c3b92c8c480d70b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+124250d13b3f284b814752dc0df330deda4216db")]
 [assembly: System.Reflection.AssemblyProductAttribute("Triavel.Shared.Data")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Triavel.Shared.Data")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
