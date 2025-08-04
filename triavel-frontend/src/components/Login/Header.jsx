@@ -67,7 +67,7 @@ function Header(){
                  
             </div>
             <div id="cre">
-                <Footer ClassName="lg:mt-[4000px] h-[30%]  z-[100] bg-gradient-to-r from-blue-950 to-orange-600"/>
+                <Footer ClassName="lg:mt-[4000px] h-[30%] w-full  z-[100] bg-gradient-to-r from-blue-950 to-orange-600"/>
             </div>
         </>
     )

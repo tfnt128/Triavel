@@ -27,7 +27,7 @@ function Register(){
                 <Cadbox ClassName="absolute z-[10] animate-fade-up "/>
             </div>
             <div className="lg:relative absolute w-full h-[30%] ">
-                <Footer ClassName="lg:mt-[2567px] h-[178%] relative z-[1]  mt-[170%] bg-gradient-to-r from-blue-950 to-orange-600" />
+                <Footer ClassName="lg:mt-[2567px] w-full h-[178%] relative z-[1]  mt-[170%] bg-gradient-to-r from-blue-950 to-orange-600" />
             </div>
         </>
     )
