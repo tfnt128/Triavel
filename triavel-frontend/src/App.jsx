@@ -7,6 +7,7 @@ import Register from './Pages/Register/Register';
 import RGoogle from './Pages/RegisterGoogle/RGoogle';
 import Esquecisenha from './Pages/Esquecisenha/Esquecisenha';
 import Entrar from './Pages/Entrar/Entrar';
+import IApage from './Pages/IApage/IApage';
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -27,6 +28,7 @@ function App() {
         <Route path="/esqueciasenha" element={<Esquecisenha/>}/>
         <Route path="/entrarcomgoogle" element={<RGoogle/>}/>
         <Route path="/entrar" element={<Entrar/>}/>
+        <Route path="/ia" element={<IApage/>}/>
       </Routes>
     </BrowserRouter>
   );

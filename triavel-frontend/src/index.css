@@ -72,6 +72,14 @@
     color: #03002A;
   }
 
+  .bg-listertwo{
+    background-color:#4472C0;
+  }
+
+  .bg-listerthree{
+    background-color: #375D9F;
+  }
+
   .bg-inputs{
     background-color: #d9d9d9
   }
@@ -92,3 +100,4 @@
 html {
   scroll-behavior: smooth;
 }
+

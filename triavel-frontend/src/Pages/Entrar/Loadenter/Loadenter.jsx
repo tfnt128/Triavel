@@ -26,7 +26,7 @@ function Loadenter(){
         <>
                 
                 <div className="w-screen h-screen flex flex-col  items-center justify-center gap-40 bg-terciary">
-                    <img src={Title} className="w-[35%] h-[3%] lg:w-[5%]"/>
+                    <img src={Title} className="w-[25%] h-[3%] lg:w-[5%]"/>
                     <div className="w-[300px] h-[300px] lg:w-[20%] lg:h-[20%]">
                         <Lottie animationData={Planeanimation} />
                     </div>
