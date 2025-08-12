@@ -3,36 +3,8 @@
   "WorkspaceRootPath": "C:\\Workstation\\Triavel\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BBD2EA4B-DB55-460C-9BB7-00A2C3465157}|Triavel.API\\Triavel.API.csproj|c:\\workstation\\triavel\\triavel.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BBD2EA4B-DB55-460C-9BB7-00A2C3465157}|Triavel.API\\Triavel.API.csproj|solutionrelative:triavel.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BBD2EA4B-DB55-460C-9BB7-00A2C3465157}|Triavel.API\\Triavel.API.csproj|c:\\workstation\\triavel\\triavel.api\\dtos\\authresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BBD2EA4B-DB55-460C-9BB7-00A2C3465157}|Triavel.API\\Triavel.API.csproj|solutionrelative:triavel.api\\dtos\\authresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BBD2EA4B-DB55-460C-9BB7-00A2C3465157}|Triavel.API\\Triavel.API.csproj|c:\\workstation\\triavel\\triavel.api\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BBD2EA4B-DB55-460C-9BB7-00A2C3465157}|Triavel.API\\Triavel.API.csproj|solutionrelative:triavel.api\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BBD2EA4B-DB55-460C-9BB7-00A2C3465157}|Triavel.API\\Triavel.API.csproj|c:\\workstation\\triavel\\triavel.api\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BBD2EA4B-DB55-460C-9BB7-00A2C3465157}|Triavel.API\\Triavel.API.csproj|solutionrelative:triavel.api\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Workstation\\Triavel\\Triavel.Shared.Data\\Migrations\\20250810091423_UserMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Triavel.Shared.Data\\Migrations\\20250810091423_UserMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{962C535A-3E0A-47A7-94A5-EE24143A62D8}|Triavel.Shared.Models\\Triavel.Shared.Models.csproj|c:\\workstation\\triavel\\triavel.shared.models\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{962C535A-3E0A-47A7-94A5-EE24143A62D8}|Triavel.Shared.Models\\Triavel.Shared.Models.csproj|solutionrelative:triavel.shared.models\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79E3F810-BA1D-4DA7-9899-2B32C033A9D5}|Triavel.Shared.Data\\Triavel.Shared.Data.csproj|c:\\workstation\\triavel\\triavel.shared.data\\data\\triavelcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79E3F810-BA1D-4DA7-9899-2B32C033A9D5}|Triavel.Shared.Data\\Triavel.Shared.Data.csproj|solutionrelative:triavel.shared.data\\data\\triavelcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BBD2EA4B-DB55-460C-9BB7-00A2C3465157}|Triavel.API\\Triavel.API.csproj|c:\\workstation\\triavel\\triavel.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BBD2EA4B-DB55-460C-9BB7-00A2C3465157}|Triavel.API\\Triavel.API.csproj|solutionrelative:triavel.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,102 +14,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AuthResponseDto.cs",
-              "DocumentMoniker": "C:\\Workstation\\Triavel\\Triavel.API\\DTOs\\AuthResponseDto.cs",
-              "RelativeDocumentMoniker": "Triavel.API\\DTOs\\AuthResponseDto.cs",
-              "ToolTip": "C:\\Workstation\\Triavel\\Triavel.API\\DTOs\\AuthResponseDto.cs",
-              "RelativeToolTip": "Triavel.API\\DTOs\\AuthResponseDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-10T13:23:06.897Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Workstation\\Triavel\\Triavel.API\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "Triavel.API\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Workstation\\Triavel\\Triavel.API\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "Triavel.API\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-10T13:11:47.538Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "RegisterDto.cs",
-              "DocumentMoniker": "C:\\Workstation\\Triavel\\Triavel.API\\DTOs\\RegisterDto.cs",
-              "RelativeDocumentMoniker": "Triavel.API\\DTOs\\RegisterDto.cs",
-              "ToolTip": "C:\\Workstation\\Triavel\\Triavel.API\\DTOs\\RegisterDto.cs",
-              "RelativeToolTip": "Triavel.API\\DTOs\\RegisterDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-10T13:11:45.455Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "LoginDto.cs",
-              "DocumentMoniker": "C:\\Workstation\\Triavel\\Triavel.API\\DTOs\\LoginDto.cs",
-              "RelativeDocumentMoniker": "Triavel.API\\DTOs\\LoginDto.cs",
-              "ToolTip": "C:\\Workstation\\Triavel\\Triavel.API\\DTOs\\LoginDto.cs",
-              "RelativeToolTip": "Triavel.API\\DTOs\\LoginDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-10T13:11:43.217Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "20250810091423_UserMigration.cs",
-              "DocumentMoniker": "C:\\Workstation\\Triavel\\Triavel.Shared.Data\\Migrations\\20250810091423_UserMigration.cs",
-              "RelativeDocumentMoniker": "Triavel.Shared.Data\\Migrations\\20250810091423_UserMigration.cs",
-              "ToolTip": "C:\\Workstation\\Triavel\\Triavel.Shared.Data\\Migrations\\20250810091423_UserMigration.cs",
-              "RelativeToolTip": "Triavel.Shared.Data\\Migrations\\20250810091423_UserMigration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-10T09:14:24.088Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Workstation\\Triavel\\Triavel.API\\Program.cs",
-              "RelativeDocumentMoniker": "Triavel.API\\Program.cs",
-              "ToolTip": "C:\\Workstation\\Triavel\\Triavel.API\\Program.cs",
-              "RelativeToolTip": "Triavel.API\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-10T08:56:41.497Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "TriavelContext.cs",
-              "DocumentMoniker": "C:\\Workstation\\Triavel\\Triavel.Shared.Data\\Data\\TriavelContext.cs",
-              "RelativeDocumentMoniker": "Triavel.Shared.Data\\Data\\TriavelContext.cs",
-              "ToolTip": "C:\\Workstation\\Triavel\\Triavel.Shared.Data\\Data\\TriavelContext.cs",
-              "RelativeToolTip": "Triavel.Shared.Data\\Data\\TriavelContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-10T08:48:11.916Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Workstation\\Triavel\\Triavel.Shared.Models\\Models\\User.cs",
               "RelativeDocumentMoniker": "Triavel.Shared.Models\\Models\\User.cs",
