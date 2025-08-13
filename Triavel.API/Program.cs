@@ -1,5 +1,4 @@
-using Microsoft.EntityFrameworkCore;
-using Triavel.Shared.Data.Data;
+ï»¿using Triavel.Shared.Data.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -8,12 +7,12 @@ builder.Services.AddDbContext<TriavelContext>();
 
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy("ReactApp", policy =>
+    options.AddPolicy("AllowAll", policy =>
     {
-        policy.WithOrigins("http://localhost:5173") // URL padrão do Vite
-              .AllowAnyHeader()
-              .AllowAnyMethod()
-              .AllowCredentials();
+        policy
+            .AllowAnyOrigin()
+            .AllowAnyMethod()
+            .AllowAnyHeader();
     });
 });
 
@@ -28,11 +27,10 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseHttpsRedirection();
+app.UseRouting(); 
 
-app.UseCors("ReactApp");
+app.UseCors("AllowAll"); 
 
-app.UseAuthorization();
 
 app.MapControllers();
 

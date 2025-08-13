@@ -4,11 +4,13 @@ using Triavel.Shared.Data.Data;
 using Triavel.Shared.Models.Models;
 using Triavel.API.DTOs;
 using BCrypt.Net;
+using Microsoft.AspNetCore.Cors;
 
 namespace TrIAvel.API.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
+    [EnableCors]
     public class AuthController : ControllerBase
     {
         private readonly TriavelContext _context;
