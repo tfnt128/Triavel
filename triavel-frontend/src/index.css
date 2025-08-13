@@ -101,3 +101,10 @@ html {
   scroll-behavior: smooth;
 }
 
+input::placeholder {
+  font-family: var(--font-inter);
+}
+
+p{
+  font-family: var(--font-inter);
+}

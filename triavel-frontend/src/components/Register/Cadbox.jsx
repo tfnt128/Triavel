@@ -1,5 +1,6 @@
 import { FcGoogle } from "react-icons/fc"
 import { useState } from "react";
+import { registerApi } from "../../services/ApiServices/api";
 
 
 function Cadbox({ClassName}){
@@ -19,6 +20,23 @@ function Cadbox({ClassName}){
 
     }
 
+    function handleRegister(){
+        try{
+            const response = registerApi(nome, email, senha, senhaCriada)
+            if(response){
+                console.log('deu certo no resgistro');
+                Valid();
+            }
+            else{
+                console.log('nao deu certo no registro');
+            }
+        }
+        catch(err){
+            console.log(err);
+            throw err;
+        }
+    }
+
     return(
         <>
             <div className="flex flex-col items-center ">
@@ -30,7 +48,7 @@ function Cadbox({ClassName}){
                             <input type="text" value={email} onChange={(e)=>{setEmail(e.target.value)}} className=" outline-none transition-transform ease-in-out hover:scale-105 lg:w-[85%] w-[85%] lg:h-[20%] h-[5%] lg:p-2 p-3 lg:rounded-[60px] rounded-[10px] lg:mt-[2%] mt-1 bg-gray-300 lg:text-[70px] text-[15px] lg:placeholder:text-[70px] placeholder:text-[15px] placeholder:font-inter placeholder:text-sencundary-color" placeholder="Informe seu e-mail"/>
                             <input type="password" value={senha} onChange={(e)=>{setSenha(e.target.value)}} className=" outline-none transition-transform ease-in-out hover:scale-105 lg:w-[85%] w-[85%] lg:h-[20%] h-[5%] lg:p-2 p-3 lg:rounded-[60px] rounded-[10px] lg:mt-[2%] mt-1 bg-gray-300 lg:text-[70px] text-[15px] lg:placeholder:text-[70px] placeholder:text-[15px] placeholder:font-inter placeholder:text-sencundary-color" placeholder="Crie uma senha"/>
                             <input type="password" value={senhaCriada} onChange={(e)=>{setSenhaCriada(e.target.value)}} className=" outline-none transition-transform ease-in-out hover:scale-105 lg:w-[85%] w-[85%] lg:h-[20%] h-[7%] lg:p-2 p-3 lg:rounded-[60px] rounded-[10px] lg:mt-[2%] mt-1 bg-gray-300 lg:text-[70px] text-[15px] lg:placeholder:text-[70px] placeholder:text-[15px] placeholder:font-inter placeholder:text-sencundary-color" placeholder="Confirme a senha criada"/>
-                            <button onClick={() => {Valid()}} className="lg:h-[35%] h-[10%] lg:w-[60%] w-[70%] lg:hidden relative z-[70] font-itim lg:mt-30 mt-5 p-1 lg:rounded-[50px] rounded-[10px] bg-secundary lg:text-[120px] text-[30px] cursor-pointer">Cadastrar</button>
+                            <button onClick={() => {handleRegister()}} className="lg:h-[35%] h-[10%] lg:w-[60%] w-[70%] lg:hidden relative z-[70] font-itim lg:mt-30 mt-5 p-1 lg:rounded-[50px] rounded-[10px] bg-secundary lg:text-[120px] text-[30px] cursor-pointer">Cadastrar</button>
                             <h3 className="lg:mt-30 mt-4 lg:text-[80px] text-[20px] text-gray-600 lg:hidden">____________ ou ____________</h3>
                             <button onClick={()=>{RegistrarGoogle()}} className="lg:hidden flex p-2 items-center justify-center lg:gap-10 gap-3 lg:w-[40%] w-[70%] lg:h-[30%] h-[5%] lg:mt-20 mt-3 relative z-[70] bg-terciary border border-gray-300 lg:rounded-[40px] rounded-[10px] hover:bg-amber-700  transition-colors">
                                 <div className="lg:hidden flex">
