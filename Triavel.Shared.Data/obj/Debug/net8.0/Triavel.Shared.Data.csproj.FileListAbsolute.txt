@@ -1,0 +1,16 @@
+C:\Workstation\Triavel\Triavel.Shared.Data\bin\Debug\net8.0\Triavel.Shared.Data.deps.json
+C:\Workstation\Triavel\Triavel.Shared.Data\bin\Debug\net8.0\Triavel.Shared.Data.runtimeconfig.json
+C:\Workstation\Triavel\Triavel.Shared.Data\bin\Debug\net8.0\Triavel.Shared.Data.dll
+C:\Workstation\Triavel\Triavel.Shared.Data\bin\Debug\net8.0\Triavel.Shared.Data.pdb
+C:\Workstation\Triavel\Triavel.Shared.Data\bin\Debug\net8.0\Triavel.Shared.Models.dll
+C:\Workstation\Triavel\Triavel.Shared.Data\bin\Debug\net8.0\Triavel.Shared.Models.pdb
+C:\Workstation\Triavel\Triavel.Shared.Data\obj\Debug\net8.0\Triavel.Shared.Data.csproj.AssemblyReference.cache
+C:\Workstation\Triavel\Triavel.Shared.Data\obj\Debug\net8.0\Triavel.Shared.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Workstation\Triavel\Triavel.Shared.Data\obj\Debug\net8.0\Triavel.Shared.Data.csproj.CoreCompileInputs.cache
+C:\Workstation\Triavel\Triavel.Shared.Data\obj\Debug\net8.0\Triavel.Shared.Data.sourcelink.json
+C:\Workstation\Triavel\Triavel.Shared.Data\obj\Debug\net8.0\Triavel..EE7E7D4A.Up2Date
+C:\Workstation\Triavel\Triavel.Shared.Data\obj\Debug\net8.0\Triavel.Shared.Data.dll
+C:\Workstation\Triavel\Triavel.Shared.Data\obj\Debug\net8.0\refint\Triavel.Shared.Data.dll
+C:\Workstation\Triavel\Triavel.Shared.Data\obj\Debug\net8.0\Triavel.Shared.Data.pdb
+C:\Workstation\Triavel\Triavel.Shared.Data\obj\Debug\net8.0\Triavel.Shared.Data.genruntimeconfig.cache
+C:\Workstation\Triavel\Triavel.Shared.Data\obj\Debug\net8.0\ref\Triavel.Shared.Data.dll
